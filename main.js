@@ -7,11 +7,11 @@ function createWindow () {
     width: 800,
     height: 600,
     alwaysOnTop: true,
+    titleBarStyle: 'hidden',
     webPreferences: {
       nodeIntegration: true
     }
   })
-
   win.loadFile('index.html')
 }
 function openUrl(){
