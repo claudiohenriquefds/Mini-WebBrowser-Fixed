@@ -4,8 +4,9 @@ let win;
 
 function createWindow () {
   win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 700,
+    height: 400,
+    icon: __dirname + "/icon.png",
     alwaysOnTop: true,
     titleBarStyle: 'hidden',
     webPreferences: {
