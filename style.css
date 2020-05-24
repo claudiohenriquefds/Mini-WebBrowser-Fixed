@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0029FA;
+}
+h5{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    color:#fff;
+}
+input{
+    padding:8px;
+    border:none;
+    border-radius: 8px;
+    width:350px;
+    background-color: #fff;
+    box-shadow: 2px 15px 8px rgba(0, 0, 0, .2);
+    color:#0029FA;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
